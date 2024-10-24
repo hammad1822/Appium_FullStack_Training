@@ -18,7 +18,7 @@ public class CreateDriverSession {
             case "Android":
                 capabilities.setCapability("deviceName", "0666225172101779");
                 capabilities.setCapability("automationName", "UiAutomator2");
-                capabilities.setCapability("app", System.getProperty("user.dir")+"/app/flex-sm-mvp-1-c65ab3-debug.apk");
+                capabilities.setCapability("app", System.getProperty("user.dir")+"/app/ApiDemos-debug.apk");
                 capabilities.setCapability("noReset", false);
                 return new AppiumDriver(url, capabilities);
             case "IOS":
